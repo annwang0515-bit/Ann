@@ -1,0 +1,145 @@
+<EntityDescriptor
+    xmlns="urn:oasis:names:tc:SAML:2.0:metadata"
+    entityID="https://wam-uat.cloud.bns:443/sso">
+    <IDPSSODescriptor
+        WantAuthnRequestsSigned="false"
+        protocolSupportEnumeration="urn:oasis:names:tc:SAML:2.0:protocol">
+        <KeyDescriptor use="signing">
+            <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+                <X509Data>
+                    <X509Certificate>
+MIIE7DCCA9SgAwIBAgIUF68bjj3sOBw/UtDezLTNDtf/VBcwDQYJKoZIhvcNAQEL
+BQAwOTELMAkGA1UEBhMCQ0ExEzARBgNVBAoTClNjb3RpYWJhbmsxFTATBgNVBAMT
+DHBraS1ibnMtcHJvZDAeFw0yNDExMDUyMDQ1MTBaFw0yNjExMDUyMDQ1NDBaMGwx
+CzAJBgNVBAYTAkNBMRMwEQYDVQQKEwpTY290aWFiYW5rMSgwCgYDVQQLEwNCTUEw
+GgYDVQQLExNDcnlwdG8gQ2VydGlmaWNhdGVzMR4wHAYDVQQDExVpZHAtd2FtLXVh
+dC5jbG91ZC5ibnMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC44uVH
+9Pm1HyXcuYSvaSB+v87IF4y9du8wSwiCsYG0aQfARs4WasbFsCR02HvRj3tC0CNr
+8IKbEcGMD6B4w9WnZJFzT2JabA3FzvCWUILziRpMglruimnCfRNSHddvo/dxm2Ls
+TxRL5c05/LBIfueQgRDzPo/ICku6viMsAA6qypNJR3j++iOvsKdXLlhmGfMlVRG0
+bEyFcutzjy2rc6PDc3ChKcNS3I70DtvrRbh76xyBEJI7lAcNrdsjkq1VjqcN9pxZ
+G9yocU9mz+fru/I7xALP986D4q8TocWir1bYyhU2rW7xKnxUeqsGNXsQIvmtFPKV
+hoVGTtsYUHbOaVFHAgMBAAGjggG3MIIBszAOBgNVHQ8BAf8EBAMCA6gwDAYDVR0T
+AQH/BAIwADAdBgNVHQ4EFgQUAxpywlb+lHy57753cFl6ksRtOdMwHwYDVR0jBBgw
+FoAUSoCfLsutdyAGmcX/f6siGNKwaOIwgbcGCCsGAQUFBwEBBIGqMIGnMC0GCCsG
+AQUFBzABhiFodHRwOi8vb2NzcC5lcGtpLmdsYi5tZmEuYm5zOjI1NjAwNwYIKwYB
+BQUHMAKGK2h0dHA6Ly9sYi52YXVsdC5wcm9kLmJucy92MS9wa2ktYm5zLXByb2Qv
+Y2EwPQYIKwYBBQUHMAKGMWh0dHBzOi8vbGIudmF1bHQucHJvZC5ibnM6ODIwMC92
+MS9wa2ktYm5zLXByb2QvY2EwIAYDVR0RBBkwF4IVaWRwLXdhbS11YXQuY2xvdWQu
+Ym5zMHcGA1UdHwRwMG4wMqAwoC6GLGh0dHA6Ly9sYi52YXVsdC5wcm9kLmJucy92
+MS9wa2ktYm5zLXByb2QvY3JsMDigNqA0hjJodHRwczovL2xiLnZhdWx0LnByb2Qu
+Ym5zOjgyMDAvdjEvcGtpLWJucy1wcm9kL2NybDANBgkqhkiG9w0BAQsFAAOCAQEA
+h+oOF9gqh8pnXzztzam/v5YLF+L1jFKQ70aijffJ3zrW4ha//34ROBP4DmbweprT
+aDaTdKxm9etcrQ8pjiQSp8C/KvCkV/lLFustgC3aESqw5kKwnA8apdt6kBXD9s26
+vYK1m1tZxtBZkbMAka2liamYHE1JzcJhtq4UDbYimTHPrmm/8AaL5lWICqAfAU/O
+FXA1B4lVhqZMiojqBglgLls/tOv58ru8y7uGGpm7qBYu/3cdaCjDOtG+lqhyW51f
+dgcpMnKoXM+OnPoB7ci7q+1oi1GlKDlLk+TqJ1Y3cMetVS3ygZCoxhYcYPv1Gdly
+cpnyO4sGyEWq1o6w6s+XUg==</X509Certificate>
+                </X509Data>
+            </KeyInfo>
+        </KeyDescriptor>
+        <KeyDescriptor use="encryption">
+            <KeyInfo xmlns="http://www.w3.org/2000/09/xmldsig#">
+                <X509Data>
+                    <X509Certificate>
+MIIE7DCCA9SgAwIBAgIUF68bjj3sOBw/UtDezLTNDtf/VBcwDQYJKoZIhvcNAQEL
+BQAwOTELMAkGA1UEBhMCQ0ExEzARBgNVBAoTClNjb3RpYWJhbmsxFTATBgNVBAMT
+DHBraS1ibnMtcHJvZDAeFw0yNDExMDUyMDQ1MTBaFw0yNjExMDUyMDQ1NDBaMGwx
+CzAJBgNVBAYTAkNBMRMwEQYDVQQKEwpTY290aWFiYW5rMSgwCgYDVQQLEwNCTUEw
+GgYDVQQLExNDcnlwdG8gQ2VydGlmaWNhdGVzMR4wHAYDVQQDExVpZHAtd2FtLXVh
+dC5jbG91ZC5ibnMwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC44uVH
+9Pm1HyXcuYSvaSB+v87IF4y9du8wSwiCsYG0aQfARs4WasbFsCR02HvRj3tC0CNr
+8IKbEcGMD6B4w9WnZJFzT2JabA3FzvCWUILziRpMglruimnCfRNSHddvo/dxm2Ls
+TxRL5c05/LBIfueQgRDzPo/ICku6viMsAA6qypNJR3j++iOvsKdXLlhmGfMlVRG0
+bEyFcutzjy2rc6PDc3ChKcNS3I70DtvrRbh76xyBEJI7lAcNrdsjkq1VjqcN9pxZ
+G9yocU9mz+fru/I7xALP986D4q8TocWir1bYyhU2rW7xKnxUeqsGNXsQIvmtFPKV
+hoVGTtsYUHbOaVFHAgMBAAGjggG3MIIBszAOBgNVHQ8BAf8EBAMCA6gwDAYDVR0T
+AQH/BAIwADAdBgNVHQ4EFgQUAxpywlb+lHy57753cFl6ksRtOdMwHwYDVR0jBBgw
+FoAUSoCfLsutdyAGmcX/f6siGNKwaOIwgbcGCCsGAQUFBwEBBIGqMIGnMC0GCCsG
+AQUFBzABhiFodHRwOi8vb2NzcC5lcGtpLmdsYi5tZmEuYm5zOjI1NjAwNwYIKwYB
+BQUHMAKGK2h0dHA6Ly9sYi52YXVsdC5wcm9kLmJucy92MS9wa2ktYm5zLXByb2Qv
+Y2EwPQYIKwYBBQUHMAKGMWh0dHBzOi8vbGIudmF1bHQucHJvZC5ibnM6ODIwMC92
+MS9wa2ktYm5zLXByb2QvY2EwIAYDVR0RBBkwF4IVaWRwLXdhbS11YXQuY2xvdWQu
+Ym5zMHcGA1UdHwRwMG4wMqAwoC6GLGh0dHA6Ly9sYi52YXVsdC5wcm9kLmJucy92
+MS9wa2ktYm5zLXByb2QvY3JsMDigNqA0hjJodHRwczovL2xiLnZhdWx0LnByb2Qu
+Ym5zOjgyMDAvdjEvcGtpLWJucy1wcm9kL2NybDANBgkqhkiG9w0BAQsFAAOCAQEA
+h+oOF9gqh8pnXzztzam/v5YLF+L1jFKQ70aijffJ3zrW4ha//34ROBP4DmbweprT
+aDaTdKxm9etcrQ8pjiQSp8C/KvCkV/lLFustgC3aESqw5kKwnA8apdt6kBXD9s26
+vYK1m1tZxtBZkbMAka2liamYHE1JzcJhtq4UDbYimTHPrmm/8AaL5lWICqAfAU/O
+FXA1B4lVhqZMiojqBglgLls/tOv58ru8y7uGGpm7qBYu/3cdaCjDOtG+lqhyW51f
+dgcpMnKoXM+OnPoB7ci7q+1oi1GlKDlLk+TqJ1Y3cMetVS3ygZCoxhYcYPv1Gdly
+cpnyO4sGyEWq1o6w6s+XUg==</X509Certificate>
+                </X509Data>
+            </KeyInfo>
+            <EncryptionMethod Algorithm="http://www.w3.org/2001/04/xmlenc#aes128-cbc">
+                <KeySize xmlns="http://www.w3.org/2001/04/xmlenc#">128</KeySize>
+            </EncryptionMethod>
+        </KeyDescriptor>
+        <ArtifactResolutionService
+            Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP"
+            Location="https://wam-uat.cloud.bns:443/sso/ArtifactResolver/metaAlias/bns/idp"
+            index="0"
+            isDefault="1"/>
+        <SingleLogoutService
+            Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
+            Location="https://wam-uat.cloud.bns:443/sso/IDPSloRedirect/metaAlias/bns/idp"
+            ResponseLocation="https://wam-uat.cloud.bns:443/sso/IDPSloRedirect/metaAlias/bns/idp"/>
+        <SingleLogoutService
+            Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+            Location="https://wam-uat.cloud.bns:443/sso/IDPSloPOST/metaAlias/bns/idp"
+            ResponseLocation="https://wam-uat.cloud.bns:443/sso/IDPSloPOST/metaAlias/bns/idp"/>
+        <SingleLogoutService
+            Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP"
+            Location="https://wam-uat.cloud.bns:443/sso/IDPSloSoap/metaAlias/bns/idp"/>
+        <ManageNameIDService
+            Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
+            Location="https://wam-uat.cloud.bns:443/sso/IDPMniRedirect/metaAlias/bns/idp"
+            ResponseLocation="https://wam-uat.cloud.bns:443/sso/IDPMniRedirect/metaAlias/bns/idp"/>
+        <ManageNameIDService
+            Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+            Location="https://wam-uat.cloud.bns:443/sso/IDPMniPOST/metaAlias/bns/idp"
+            ResponseLocation="https://wam-uat.cloud.bns:443/sso/IDPMniPOST/metaAlias/bns/idp"/>
+        <ManageNameIDService
+            Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP"
+            Location="https://wam-uat.cloud.bns:443/sso/IDPMniSoap/metaAlias/bns/idp"/>
+        <NameIDFormat>
+            urn:oasis:names:tc:SAML:2.0:nameid-format:persistent
+        </NameIDFormat>
+        <NameIDFormat>
+            urn:oasis:names:tc:SAML:2.0:nameid-format:transient
+        </NameIDFormat>
+        <NameIDFormat>
+            urn:oasis:names:tc:SAML:1.1:nameid-format:emailAddress
+        </NameIDFormat>
+        <NameIDFormat>
+            urn:oasis:names:tc:SAML:1.1:nameid-format:unspecified
+        </NameIDFormat>
+        <NameIDFormat>
+          urn:oasis:names:tc:SAML:1.1:nameid-format:WindowsDomainQualifiedName
+        </NameIDFormat>
+        <NameIDFormat>
+            urn:oasis:names:tc:SAML:2.0:nameid-format:kerberos
+        </NameIDFormat>
+        <NameIDFormat>
+            urn:oasis:names:tc:SAML:1.1:nameid-format:X509SubjectName
+        </NameIDFormat>
+        <SingleSignOnService
+            Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-Redirect"
+            Location="https://wam-uat.cloud.bns/sso/cdsso/federation.jsp?appName=Bipsync_BJ69"/>
+        <SingleSignOnService
+            Binding="urn:oasis:names:tc:SAML:2.0:bindings:HTTP-POST"
+            Location="https://wam-uat.cloud.bns/sso/cdsso/federation.jsp?appName=Bipsync_BJ69"/>
+        <SingleSignOnService
+            Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP"
+            Location="https://wam-uat.cloud.bns/sso/cdsso/federation.jsp?appName=Bipsync_BJ69"/>
+        <NameIDMappingService
+            Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP"
+            Location="https://wam-uat.cloud.bns:443/sso/NIMSoap/metaAlias/bns/idp"/>
+        <AssertionIDRequestService
+            Binding="urn:oasis:names:tc:SAML:2.0:bindings:SOAP"
+            Location="https://wam-uat.cloud.bns:443/sso/AIDReqSoap/IDPRole/metaAlias/bns/idp"/>
+        <AssertionIDRequestService
+            Binding="urn:oasis:names:tc:SAML:2.0:bindings:URI"
+            Location="https://wam-uat.cloud.bns:443/sso/AIDReqUri/IDPRole/metaAlias/bns/idp"/>
+    </IDPSSODescriptor>
+</EntityDescriptor>
